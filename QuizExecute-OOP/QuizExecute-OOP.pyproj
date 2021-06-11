@@ -21,26 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Classes\AnswerQuestion.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Classes\ExaminationPaper.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Classes\TakeTheExam.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="defs\creatOptions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="defs\getAnswer.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="QuizExecute_OOP.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="defs\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
